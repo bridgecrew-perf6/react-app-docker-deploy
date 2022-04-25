@@ -11,10 +11,16 @@ jobs:
     name: deploy react app
     runs-on: ubuntu-latest
     steps:  
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - name: Checkout repositoty
+      uses: actions/checkout@v3
+    - name: Set up node versin 14
+      uses: actions/setup-node@v3
       with:
         node-version: '14'
         cache: 'npm'
-    - run: npm install
-    - run: npm test
+    - name: Install dependencies
+      run: npm install
+    - name: Run unit tests
+      run: npm test
+    - name: Build code
+      run: npm build
