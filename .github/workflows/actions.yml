@@ -31,4 +31,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
         aws-region: ap-south-1
     - name: Upload to S3 bucket
-      run: aws s3 sync /build s3://react-app-deployment
+      run: aws s3 sync ./build s3://react-app-deployment
