@@ -17,4 +17,5 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 App is ready to be deployed!
 
-
+Once code is merged to branches, action workflow gets created.
+Two action files are created, one for deploying thru GitHub Actions and other using Dockerfile.
