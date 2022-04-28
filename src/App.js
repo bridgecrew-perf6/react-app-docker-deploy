@@ -14,11 +14,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://medium.com/@Prashanth2507/deploying-react-app-in-aws-s3-cloudfront-using-docker-jenkins-or-github-actions-b2d3cf325c30"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Medium article
         </a>
       </header>
     </div>
