@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React logo is good, but where is the app?
         </p>
         <p>
           Deployed React app using GitHub Actions. Go ahead and create your web-app.
