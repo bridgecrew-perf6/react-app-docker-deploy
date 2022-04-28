@@ -19,3 +19,6 @@ App is ready to be deployed!
 
 Once code is merged to branches, action workflow gets created.
 Two action files are created, one for deploying thru GitHub Actions and other using Dockerfile.
+
+To learn more about deployments:
+https://medium.com/@Prashanth2507/deploying-react-app-in-aws-s3-cloudfront-using-docker-jenkins-or-github-actions-b2d3cf325c30
