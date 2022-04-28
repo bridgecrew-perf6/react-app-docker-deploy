@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          We are dockerizing react app deployment.
+          Deployed React app using GitHub Actions. Go ahead and create your web-app.
         </p>
         <a
           className="App-link"
