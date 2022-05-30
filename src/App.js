@@ -10,7 +10,7 @@ function App() {
           React logo is good, but where is the app?
         </p>
         <p>
-          Deployed React app using GitHub Actions. Go ahead and create your web-app.
+          Deployed React app using GitHub Actions. Go ahead and create your web-app.....
         </p>
         <a
           className="App-link"
