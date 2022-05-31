@@ -6,5 +6,4 @@ COPY ["./","./"]
 RUN npm run build
 
 FROM nginx
-COPY --from=build /react-app-docker-deploy/build ./build
-COPY build /usr/share/nginx/html/
+COPY --from=build /react-app-docker-deploy/build /usr/share/nginx/html/
